@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+body {
+    background-image: url(https://shibuya-bay.vercel.app/bg-1.png);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Fjalla One", sans-serif;
+    color: #251607;
+}
+
+.container {
+    max-width: 1700px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+    a {
+        text-decoration: none;
+        color: #251607;
+        /* font-size: 30px */
+        font-size: clamp(0.875rem, 0.0625rem + 2.6vw, 2.5rem);
+        font-weight: 600;
+    }
+
+    div {
+        img {
+            width: clamp(1.875rem, 1.2388rem + 2.6786vw, 3.75rem);
+        }
+    }
+}
+
+
+.hero {
+    h1 {
+        font-size: clamp(6.625rem, 0.1772rem + 28.6567vw, 30.625rem);
+        text-align: center;
+        color: #251607;
+        line-height: clamp(6.625rem, 0.1772rem + 28.6567vw, 30.625rem);
+    }
+
+
+    p {
+        font-size: clamp(1rem, 0.7649rem + 1.0448vw, 1.875rem);
+        color: #251607;
+        text-align: center;
+        line-height: clamp(1rem, 0.7649rem + 1.0448vw, 1.875rem);
+    }
+
+    .hero-img {
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .texts-img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    }
+}
+
+
+.slider {
+    overflow-x: hidden;
+    padding: 50px 0;
+
+    img {
+        width: 150%;
+        height: 200px;
+    }
+}
+
+.haru-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.haru-box-1 {
+    img {
+        width: 100%;
+        filter: brightness(1) sepia(10%) saturate(400%);
+    }
+}
+
+
+.haru-box-2 {
+    h1 {
+        font-size: clamp(4rem, 2.1362rem + 8.2836vw, 10.9375rem);
+        text-transform: uppercase;
+        color: #251607;
+        text-align: center;
+    }
+
+    p {
+        font-size: 22px;
+        text-align: end;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+
+.team-wrap {
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.team-text {
+    font-size: clamp(4rem, 1.7164rem + 10.1493vw, 12.5rem);
+    text-transform: uppercase;
+
+
+    .team-text-grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+
+
+        div {
+            min-height: 290px;
+            border: 2px solid #000;
+            height: 290px;
+            background-size: cover;
+            background-position: center;
+        }
+
+
+        .card1 {
+            background-image: url(https://shibuya-bay.vercel.app/assets/team-2-f8113e02.png);
+        }
+
+        .card2 {
+            background-image: url(https://shibuya-bay.vercel.app/assets/team-4-8d861bac.png);
+        }
+
+        .card3 {
+            background-image: url(https://shibuya-bay.vercel.app/assets/team-3-204d37e4.png);
+        }
+
+        .card4 {
+            background-image: url(https://shibuya-bay.vercel.app/assets/team-1-71317594.png);
+        }
+    }
+}
+
+.team-img {
+    img {
+        width: 100%;
+    }
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    a {
+        text-decoration: none;
+        color: #251607;
+        /* font-size: 30px */
+        font-size: clamp(0.875rem, 0.0625rem + 2.6vw, 2.5rem);
+        font-weight: 600;
+    }
+}
+
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding: 50px 0;
+
+    .img1{
+        width: 100%;
+    }
+
+    img2{
+        width: 100%;
+    }
+}
+
+.tx1{
+    h1 {
+        font-size: clamp(6.5rem, 1.5558rem + 10.3004vw, 12.5rem);
+        text-align: center;
+    }
+}
+
+
